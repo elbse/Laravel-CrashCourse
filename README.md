@@ -42,7 +42,7 @@ I’m using this space to track my progress, take notes, and commit code example
 - [x] What is Laravel and why use it?  
 - [x] Installing Laravel via Composer  
 - [x] Understanding folder structure  
-- [x] Environment configuration (`.env`)  
+- [ ] Environment configuration (`.env`)  
 - [ ] Request lifecycle overview  
 - [ ] Understanding Artisan CLI  
 
