@@ -1,66 +1,161 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# 🚀 My Laravel Learning Journey
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Welcome to my **Laravel Crash Course** repository! 🎓  
+This repo documents my personal journey learning **Laravel**, the elegant PHP framework for web artisans.  
 
-## About Laravel
+I’m using this space to track my progress, take notes, and commit code examples as I explore how Laravel simplifies backend development with **MVC architecture**, **Eloquent ORM**, **Blade templates**, and much more.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+---
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## 🎯 My Goals
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+- Understand Laravel’s **core concepts** and **MVC structure**  
+- Learn how to set up and configure Laravel projects  
+- Master **routing**, **controllers**, and **views**  
+- Work with **Eloquent ORM** and **database migrations**  
+- Build small projects to apply what I learn  
+- Document everything clearly for future reference  
 
-## Learning Laravel
+---
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## 🧰 Tools & Setup
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+- **Laravel** (latest version)
+- **PHP 8+**
+- **Composer**
+- **MySQL / SQLite**
+- **VS Code** (with PHP + Laravel extensions)
+- **Artisan CLI**
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+---
 
-## Laravel Sponsors
+## ✅ Laravel Learning Checklist
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+> Use this checklist to track your progress as you learn Laravel.  
+> Check off items `[x]` as you complete them!
 
-### Premium Partners
+---
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+<details>
+<summary>🧩 <strong>Fundamentals</strong></summary>
 
-## Contributing
+- [x] What is Laravel and why use it?  
+- [x] Installing Laravel via Composer  
+- [x] Understanding folder structure  
+- [ ] Environment configuration (`.env`)  
+- [ ] Request lifecycle overview  
+- [ ] Understanding Artisan CLI  
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+</details>
 
-## Code of Conduct
+---
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+<details>
+<summary>⚙️ <strong>Routing & Controllers</strong></summary>
 
-## Security Vulnerabilities
+- [ ] Defining routes (`web.php`, `api.php`)  
+- [ ] Route parameters and constraints  
+- [ ] Controllers and methods  
+- [ ] Route groups and middleware  
+- [ ] Resource controllers  
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+</details>
 
-## License
+---
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+<details>
+<summary>🧱 <strong>Models & Database</strong></summary>
+
+- [ ] Setting up database connections  
+- [ ] Migrations (create, rollback, refresh)  
+- [ ] Eloquent ORM basics  
+- [ ] Relationships (One-to-One, One-to-Many, Many-to-Many)  
+- [ ] Query Builder and raw queries  
+- [ ] Eloquent scopes and accessors  
+
+</details>
+
+---
+
+<details>
+<summary>🎨 <strong>Views & Blade Templates</strong></summary>
+
+- [ ] Setting up Blade templates  
+- [ ] Template inheritance (`@extends`, `@section`, `@yield`)  
+- [ ] Blade components and includes  
+- [ ] Displaying data and control structures (`@if`, `@foreach`)  
+- [ ] Integrating Bootstrap or Tailwind  
+- [ ] Passing data from controllers to views  
+
+</details>
+
+---
+
+<details>
+<summary>🔐 <strong>Authentication & Authorization</strong></summary>
+
+- [ ] Using Laravel Breeze / Jetstream / Fortify  
+- [ ] Login, registration, and password reset  
+- [ ] Middleware and guards  
+- [ ] Roles and permissions (basic)  
+- [ ] Policies and gates  
+
+</details>
+
+---
+
+<details>
+<summary>🧠 <strong>Advanced Concepts</strong></summary>
+
+- [ ] API development with Laravel  
+- [ ] Request validation and form requests  
+- [ ] Dependency Injection and Service Container  
+- [ ] Queues and Jobs  
+- [ ] Events and Listeners  
+- [ ] Laravel Sanctum / Passport for API Auth  
+- [ ] Testing (Feature & Unit Tests)  
+
+</details>
+
+---
+
+<details>
+<summary>🧩 <strong>Laravel in Practice</strong></summary>
+
+- [ ] Building a CRUD app with Laravel  
+- [ ] File uploads and storage  
+- [ ] Sending emails with Mailables  
+- [ ] Using Laravel Scheduler and Tasks  
+- [ ] Integrating with APIs (HTTP client)  
+- [ ] Deploying a Laravel app (Forge / Vapor / shared hosting)  
+
+</details>
+
+---
+
+<details>
+<summary>📚 <strong>Extra Learning Ideas</strong></summary>
+
+- [ ] Convert a PHP project to Laravel  
+- [ ] Use Laravel with Vue or React (Inertia.js / Livewire)  
+- [ ] Explore Laravel packages  
+- [ ] Learn about Laravel Octane & performance optimization  
+- [ ] Explore Laravel 11+ new features  
+
+</details>
+
+---
+
+### 🎯 Progress Tracker
+
+| Topic | Progress |
+|--------|-----------|
+| 🧩 Fundamentals | 🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜ (30%) |
+| ⚙️ Routing & Controllers | 🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜ (10%) |
+| 🧱 Models & Database | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ (0%) |
+| 🎨 Blade & Views | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ (0%) |
+| 🔐 Authentication | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ (0%) |
+| 🧠 Advanced Topics | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ (0%) |
+| 🧩 Laravel in Practice | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ (0%) |
+
+---
