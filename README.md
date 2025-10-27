@@ -20,7 +20,7 @@ I’m using this space to track my progress, take notes, and commit code example
 
 ## 🧰 Tools & Setup
 
-- **Laravel** (latest version)
+- **Laravel11**
 - **PHP 8+**
 - **Composer**
 - **MySQL / SQLite**
