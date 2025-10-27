@@ -1,0 +1,110 @@
+🧩 Laravel Fundamentals — Quick Summary
+1. What is Laravel and Why Use It?
+
+Laravel is a PHP web application framework that provides a clean and elegant syntax for building modern web apps quickly.
+It follows the MVC (Model–View–Controller) architecture and offers built-in tools for:
+
+-Routing
+-Authentication & Authorization
+-Database management (via Eloquent ORM)
+-Blade templating engine
+-Queues, Events, Caching, and more
+
+Why use Laravel?
+
+-Developer-friendly and expressive syntax
+-Fast development with reusable components
+-Secure and well-maintained
+-Large community & extensive documentation
+
+2. Installing Laravel via Composer
+
+Laravel is installed through Composer, PHP’s dependency manager.
+
+Command:
+
+composer create-project laravel/laravel project-name
+
+
+Or, globally:
+
+composer global require laravel/installer
+laravel new project-name
+
+
+To serve your project:
+
+php artisan serve
+
+
+→ Opens your app at http://127.0.0.1:8000
+
+3. Understanding Folder Structure
+
+Key directories inside a Laravel project:
+
+Folder	Description
+app/	Core app logic (Models, Controllers, Middleware, etc.)
+bootstrap/	Initializes the framework
+config/	All configuration files
+database/	Migrations, seeders, factories
+public/	Entry point (index.php) and static files
+resources/	Views (Blade templates), CSS, JS
+routes/	Web and API routes
+storage/	Logs, cached views, file uploads
+tests/	Automated tests
+4. Environment Configuration (.env)
+
+.env file stores environment-specific settings — things you don’t hardcode.
+
+Example:
+
+APP_NAME="MyApp"
+APP_ENV=local
+APP_KEY=base64:...
+APP_DEBUG=true
+APP_URL=http://localhost
+
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=myapp
+DB_USERNAME=root
+DB_PASSWORD=
+
+
+Use env() in config files, not in your app logic.
+
+5. Request Lifecycle Overview
+
+The path of every request in Laravel:
+
+public/index.php – Entry point
+
+Kernel – Handles HTTP request
+
+Service Providers – Bootstraps app services
+
+Routing – Determines which controller/method to call
+
+Controller/Model – Processes data & logic
+
+View (Blade) – Returns response to browser
+
+This makes Laravel requests clean, organized, and testable.
+
+6. Understanding Artisan CLI
+
+Artisan is Laravel’s built-in command-line interface for automating tasks.
+
+Common Commands:
+
+php artisan serve              # Run local server
+php artisan make:controller    # Create a new controller
+php artisan make:model         # Create a model
+php artisan migrate            # Run migrations
+php artisan route:list         # View registered routes
+php artisan cache:clear        # Clear cache
+
+
+You can also create custom Artisan commands for automation.
