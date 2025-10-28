@@ -59,15 +59,16 @@ Return structured data to the controller
 
 🔗 How They Work Together
 Flow Diagram:
+
 User → Route → Controller → Repository → Model → Database
 
 Step	Description
-1️⃣	The user sends a request (like /login)
-2️⃣	The route calls the Controller method
-3️⃣	The Controller validates and forwards data to Repository
-4️⃣	The Repository performs the logic and talks to Models
-5️⃣	The Repository sends results back to the Controller
-6️⃣	The Controller formats and returns the JSON response
+1️⃣	    The user sends a request (like /login)
+2️⃣	    The route calls the Controller method
+3️⃣	    The Controller validates and forwards data to Repository
+4️⃣	    The Repository performs the logic and talks to Models
+5️⃣	    The Repository sends results back to the Controller
+6️⃣	    The Controller formats and returns the JSON response
 
 ⚖️ Difference Between Controller and Repository
 
