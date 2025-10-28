@@ -53,6 +53,7 @@ resources/	Views (Blade templates), CSS, JS
 routes/	Web and API routes
 storage/	Logs, cached views, file uploads
 tests/	Automated tests
+
 4. Environment Configuration (.env)
 
 .env file stores environment-specific settings — things you don’t hardcode.
