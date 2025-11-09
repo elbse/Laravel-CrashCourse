@@ -55,7 +55,7 @@ I’m using this space to track my progress, take notes, and commit code example
 
 - [ ] Defining routes (`web.php`, `api.php`)  
 - [ ] Route parameters and constraints  
-- [ ] Controllers and methods  
+- [x] Controllers and methods  
 - [ ] Route groups and middleware  
 - [ ] Resource controllers  
 
