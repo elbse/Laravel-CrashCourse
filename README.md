@@ -44,7 +44,7 @@ I’m using this space to track my progress, take notes, and commit code example
 - [x] Understanding folder structure  
 - [ ] Environment configuration (`.env`)  
 - [ ] Request lifecycle overview  
-- [ ] Understanding Artisan CLI  
+- [x] Understanding Artisan CLI  
 
 </details>
 
@@ -67,7 +67,7 @@ I’m using this space to track my progress, take notes, and commit code example
 <summary>🧱 <strong>Models & Database</strong></summary>
 
 - [ ] Setting up database connections  
-- [ ] Migrations (create, rollback, refresh)  
+- [x] Migrations (create, rollback, refresh)  
 - [ ] Eloquent ORM basics  
 - [ ] Relationships (One-to-One, One-to-Many, Many-to-Many)  
 - [ ] Query Builder and raw queries  
